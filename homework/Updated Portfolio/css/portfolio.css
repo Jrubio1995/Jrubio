@@ -1,0 +1,61 @@
+body {
+  background: url("../images/wallpaper\ \(1\).jpg");
+}
+
+header {
+  width: 100%;
+}
+
+section {
+  margin: 80px;
+}
+
+header a :hover {
+  color: green;
+}
+h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+h3 {
+  font-size: 30px;
+  color: white;
+}
+
+h6 {
+  margin-left: 150px;
+}
+.block {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin: 0;
+}
+
+.row {
+  padding: 10px;
+}
+
+#project-1 {
+  background: green;
+}
+
+#project-2 {
+  background: red;
+}
+#project-3 {
+  background: blue;
+}
+#project-4 {
+  background: brown;
+}
