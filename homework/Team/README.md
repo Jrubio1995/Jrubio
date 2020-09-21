@@ -1,3 +1,5 @@
+![](images/teams.png)
+![](images/teams.gif)
 
   # Team
 
