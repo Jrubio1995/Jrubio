@@ -1,6 +1,7 @@
-https://note-taker-jr.herokuapp.com/
+Link to Heroku app: https://note-taker-jr.herokuapp.com/
 
 ![](images/notes.png)
+![](images/Notesvid.gif)
 
 # Note-Taker
 
