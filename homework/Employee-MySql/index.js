@@ -44,7 +44,7 @@ function start() {
         viewDepartments();
       } else if (answer.employeeList === "Remove Employee") {
         RemoveEmployee();
-      } else if (answer.employeeList === "Extit") {
+      } else if (answer.employeeList === "Exit") {
         connection.end();
       }
     });
