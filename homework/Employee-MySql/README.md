@@ -1,51 +1,47 @@
+![](images/Tracker.png)
 
-  # Employee-MYSQL
+# Employee-MYSQL
 
-  [![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)](https://opensource.org/licenses/Unlicense)
-  
-  ## Description 
-  
-  organizing the company by employees
+[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)](https://opensource.org/licenses/Unlicense)
 
-  ## Table of Contents
-  
-  [Installation](#installation)
-  
-  [Usage](#usage)
-  
-  [Contributing](#contributing)
-  
-  [Tests](#tests)
-  
-  [Questions](#questions)
-  
-  [License](#license)
+## Description
 
-  ## Installation
-  
-  download, then install all the dependencies by running (npm install in bash) then hooking up a local database.
+organizing the company by employees
 
-  ## Usage
-  
-  
+## Table of Contents
 
-  ## Contributing
-  
-  
+[Installation](#installation)
 
-  ## Tests
-  
-  undefined
+[Usage](#usage)
 
-  ## Questions
-  
-  Github username : 
-  
-  Link to my profile: https://github.com/
-  
-  If you have any additional questions, you can reach me at . 
+[Contributing](#contributing)
 
-  ## License 
-  
-  Licensed under the Unlicense license. 
-  
+[Tests](#tests)
+
+[Questions](#questions)
+
+[License](#license)
+
+## Installation
+
+download, then install all the dependencies by running (npm install in bash) then hooking up a local database.
+
+## Usage
+
+## Contributing
+
+## Tests
+
+undefined
+
+## Questions
+
+Github username :
+
+Link to my profile: https://github.com/
+
+If you have any additional questions, you can reach me at .
+
+## License
+
+Licensed under the Unlicense license.
