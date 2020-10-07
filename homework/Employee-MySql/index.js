@@ -7,7 +7,6 @@ const util = require("util");
 // type in your own INFO for this part
 const connection = mysql.createConnection({
   host: "localhost",
-  port: 3306,
   user: "employee",
   password: "password123",
   database: "emloyee_db",
@@ -68,7 +67,7 @@ function addEmployee() {
       {
         name: "departmentName",
         type: "input",
-        message: "Enter the Department Name",
+        message: "Enter the Department Name:",
       },
     ])
     .then((answers) => {
@@ -96,7 +95,7 @@ function viewAllEmployees() {
     "SELECT * FROM employee_info INNER JOIN roles ON employee_info.id + roles.id",
     function (err, results) {
       if (err) throw err;
-      console.table(rusults);
+      console.table(results);
       start();
     }
   );
@@ -123,12 +122,12 @@ function updateEmployee() {
         {
           name: "firstName",
           type: "input",
-          message: "Enter First name:",
+          message: "Enter first name:",
         },
         {
           name: "lastName",
           type: "input",
-          message: "Enter First name:",
+          message: "Enter last name:",
         },
         {
           name: "roleId",
@@ -143,7 +142,7 @@ function updateEmployee() {
         {
           name: "title",
           type: "input",
-          message: "Enter Job Title:?",
+          message: "Enter Job Title:",
         },
         {
           name: "salary",
@@ -158,7 +157,7 @@ function updateEmployee() {
         {
           name: "departmentName",
           type: "input",
-          message: "Enter the Department Name",
+          message: "Enter the Department Name:",
         },
       ])
       .then((answers) => {
