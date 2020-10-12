@@ -1,3 +1,5 @@
+Link to Heroku app: https://sleepy-brushlands-93526.herokuapp.com/
+![](demo/Eat.gif)
 
   # Burger App
 
