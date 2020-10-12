@@ -11,7 +11,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
-app.use(bodyParser.static("public/images"));
 
 const routes = require("./controllers/burger_controller");
 app.use(routes);
