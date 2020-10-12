@@ -1,0 +1,18 @@
+body {
+  background-color: gray;
+}
+
+h3 {
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+p {
+  font-size: 10px;
+  color: white;
+}

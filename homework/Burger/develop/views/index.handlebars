@@ -1,0 +1,58 @@
+<div class="container-fluid">
+    <img src="/public/asset/img/5-2-burger-png.png" class="rounded mx-auto d-block" alt="burgerPic">
+    <div class="col-md-6"></div>
+</div>
+<div class="col-md"></div>
+</div>
+<div class="row justify-content-md-center">
+    <div class="col-md"></div>
+    <div class="col-md text-center ">
+        <h3 class="display-2">Burger app</h3>
+    </div>
+    <div class="col-md"></div>
+</div>
+
+<div class="container">
+    <div class="row ">
+        <div class="col-6">
+            {{#each burgers}} {{#unless devoured}}
+            <div class="row">
+                <div class="col-9">
+                    <p class="form-control burger_name">
+                        {{id}}. {{burger_name}}
+                    </p>
+                </div>
+                <div class="col-3">
+                    <form method="POST" action="/devourBurger/{{id}}">
+                        <button type="submit" class="btn btn-primary devourBtn">Devour</button>
+                    </form>
+                </div>
+            </div>
+            {{/unless}} {{/each}}
+        </div>
+        <div class="col-6">
+            {{#each burgers}} {{#if devoured}}
+            <div class="col-10">
+                <p class="text-left form-control burger_name">
+                    {{id}}. {{burger_name}}
+                </p>
+            </div>
+            {{/if}} {{/each}}
+        </div>
+    </div>
+</div>
+<div class="row justify-content-md-center">
+    <div class="col-md"></div>
+    <div class="col-md text-center">
+        <form method="POST" action="/createBurger">
+            <div class="form-group">
+                <textarea class="form-control" id="newBurger" name="newBurger" rows="1"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <br>
+            <br>
+            <p>click the "Submit" button to add to the list on the right. then hit the "Devour" </p>
+        </form>
+    </div>
+    <div class="col-md"></div>
+</div>
